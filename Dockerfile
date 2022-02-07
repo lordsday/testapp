@@ -6,4 +6,6 @@ RUN pip3 install flask
 
 WORKDIR /app
 
+EXPOSE 8080
+
 CMD ["python3", "testapp.py"]

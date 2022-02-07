@@ -9,4 +9,5 @@ spec:
     name: http
   selector:
     app: flask
+  type: LoadBalancer
 
